@@ -1,0 +1,37 @@
+body {
+  background: #ED4264;
+  background: -webkit-linear-gradient(to right, #FFEDBC, #ED4264);
+  background: linear-gradient(to right, #FFEDBC, #ED4264);
+}
+
+.container-xl {
+  background-color: #84777842;
+}
+
+input.form-control {
+  height: 60px;
+}
+
+.error-msg {
+  display: none;
+}
+
+#check {
+  accent-color: #343a40;
+  width: 15px;
+  height: 15px;
+}
+
+.container-xl .checklist input[type='checkbox']:checked+label {
+  text-decoration: line-through;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.checklist label {
+  text-indent: 5px;
+}
+
+.deleteTasks {
+  background: none;
+  border: none;
+}
